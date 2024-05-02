@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebaseRecycler</string>
+    <string name="title_list">Lista de personas</string>
+
+    <string name="create">Crear</string>
+    <string name="update">Actualizar</string>
+</resources>

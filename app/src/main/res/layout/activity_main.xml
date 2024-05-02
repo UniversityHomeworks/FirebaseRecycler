@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="@string/title_list" />
+
+    <LinearLayout
+            android:id="@+id/headSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/createButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create"
+                android:padding="10sp"
+                android:layout_margin="10sp"
+                style="?android:attr/buttonBarPositiveButtonStyle" />
+
+        <Button
+                android:id="@+id/updateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update"
+                android:padding="10sp"
+                android:layout_margin="10sp"
+                style="?android:attr/buttonBarPositiveButtonStyle" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/collectPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

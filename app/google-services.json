@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "442097692671",
+    "firebase_url": "https://damn-practice-default-rtdb.firebaseio.com",
+    "project_id": "damn-practice",
+    "storage_bucket": "damn-practice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442097692671:android:30aebe715191b3256381ca",
+        "android_client_info": {
+          "package_name": "top.jonakls.firebaserecycler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS_cQzrya4vV6f3w6o3l4UKude92YxbZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
